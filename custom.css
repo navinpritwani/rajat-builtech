@@ -1,0 +1,439 @@
+
+        .rh_banner {
+            background: inherit;
+        }
+
+        .rh_logo .rh_logo__heading a {
+            color: #ffffff;
+        }
+
+        .rh_logo .rh_logo__heading a:hover {
+            color: #1ea69a;
+        }
+
+        ul.rh_menu__main li a {
+            color: #ffffff;
+        }
+
+        ul.rh_menu__main li a:hover,
+        ul.rh_menu__main>.current-menu-item>a,
+        ul.rh_menu__main li:hover,
+        .rh_menu--hover {
+            background: #ea723d;
+        }
+
+        ul.rh_menu__main ul.sub-menu,
+        ul.rh_menu__main ul.sub-menu ul.sub-menu {
+            background: #fff;
+        }
+
+        ul.rh_menu__main ul.sub-menu,
+        ul.rh_menu__main ul.sub-menu ul.sub-menu {
+            border-top-color: #ea723d;
+        }
+
+        ul.rh_menu__main ul.sub-menu li a,
+        ul.rh_menu__main ul.sub-menu ul.sub-menu a {
+            color: #808080;
+        }
+
+        .rh_menu__user .rh_menu__user_phone .contact-number {
+            color: #ffffff;
+        }
+
+        .rh_menu__user .rh_menu__user_phone svg {
+            fill: #ffffff;
+        }
+
+        .rh_banner .rh_banner__title {
+            color: #ffffff;
+        }
+
+        .home .rh_prop_search__buttons:after {
+            background-image: url("http://realhomes-modern.inspirythemes.biz/wp-content/themes/realhomes/assets/modern/images/advance-search-arrow.png");
+        }
+
+        .rh_section--featured .rh_section__head .rh_section__subtitle {
+            color: #1ea69a;
+        }
+
+        .rh_section--featured .rh_section__head .rh_section__title {
+            color: #1a1a1a;
+        }
+
+        .rh_section--featured .rh_section__head .rh_section__desc {
+            color: #808080;
+        }
+
+        .rh_section__agents .rh_section__head .rh_section__subtitle {
+            color: #1ea69a;
+        }
+
+        .rh_section__agents .rh_section__head .rh_section__title {
+            color: #1a1a1a;
+        }
+
+        .rh_section__agents .rh_section__head .rh_section__desc {
+            color: #808080;
+        }
+
+        .rh_section--props_padding:after,
+        .rh_section__agents:after {
+            border-left-color: #;
+        }
+
+        .rh_section__agents:before {
+            border-right-color: #;
+        }
+
+        .rh_cta--featured .rh_cta {
+            background-image: url("http://realhomes-modern.inspirythemes.biz/wp-content/themes/realhomes/assets/modern/images/cta-bg.jpg");
+        }
+
+        .rh_cta--featured .rh_cta__title {
+            color: #ffffff;
+        }
+
+        .rh_cta--featured .rh_cta__quote {
+            color: #ffffff;
+        }
+
+        .rh_cta__wrap .rh_cta__btns .rh_btn--secondary {
+            color: #ffffff;
+        }
+
+        .rh_cta__wrap .rh_cta__btns .rh_btn--secondary {
+            background: #ea723d;
+        }
+
+        .rh_cta__wrap .rh_cta__btns .rh_btn--secondary:hover {
+            background: rgba(234, 114, 61, 0.8);
+        }
+
+        .rh_cta__wrap .rh_cta__btns .rh_btn--greyBG {
+            color: #ffffff;
+        }
+
+        .rh_cta__wrap .rh_cta__btns .rh_btn--greyBG {
+            background: rgba(255, 255, 255, 0.25);
+        }
+
+        .rh_cta__wrap .rh_cta__btns .rh_btn--greyBG:hover {
+            background: rgba(255, 255, 255, 0.4);
+        }
+
+        .rh_cta--contact .rh_cta {
+            background-image: url("http://realhomes-modern.inspirythemes.biz/wp-content/themes/realhomes/assets/modern/images/cta-above-footer.jpg");
+        }
+
+        .rh_cta--contact .rh_cta .rh_cta__overlay {
+            background-color: rgba(30, 166, 154, 0.8);
+        }
+
+        .rh_cta--contact .rh_cta__title {
+            color: #ffffff;
+        }
+
+        .rh_cta--contact .rh_cta__quote {
+            color: #ffffff;
+        }
+
+        .rh_cta__wrap .rh_cta__btns .rh_btn--blackBG {
+            color: #ffffff;
+        }
+
+        .rh_cta__wrap .rh_cta__btns .rh_btn--blackBG {
+            background: #303030;
+        }
+
+        .rh_cta__wrap .rh_cta__btns .rh_btn--blackBG:hover {
+            background: rgba(48, 48, 48, 0.8);
+        }
+
+        .rh_cta__wrap .rh_cta__btns .rh_btn--whiteBG {
+            color: #303030;
+        }
+
+        .rh_cta__wrap .rh_cta__btns .rh_btn--whiteBG {
+            background: #ffffff;
+        }
+
+        .rh_cta__wrap .rh_cta__btns .rh_btn--whiteBG:hover {
+            background: rgba(255, 255, 255, 0.8);
+        }
+
+        .rh_testimonial .rh_testimonial__quote {
+            color: #ffffff;
+        }
+
+        .rh_testimonial .rh_testimonial__author .rh_testimonial__author_name {
+            color: #ffffff;
+        }
+
+        .rh_testimonial .rh_testimonial__author .rh_testimonial__author__link a {
+            color: #ffffff;
+        }
+
+        .rh_agent .rh_agent__details h3 a {
+            color: #1a1a1a;
+        }
+
+        .rh_agent .rh_agent__details h3 a:hover {
+            color: #1ea69a;
+        }
+
+        .rh_agent .rh_agent__details .rh_agent__email,
+        .rh_agent .rh_agent__details .rh_agent__listed .heading {
+            color: #1a1a1a;
+        }
+
+        .rh_agent .rh_agent__details .rh_agent__phone,
+        .rh_agent .rh_agent__details .rh_agent__email:hover {
+            color: #1ea69a;
+        }
+
+        .rh_agent .rh_agent__details .rh_agent__listed .figure {
+            color: #1ea69a;
+        }
+
+        .rh_section__partners .rh_section__head .rh_section__subtitle {
+            color: #1ea69a;
+        }
+
+        .rh_section__partners .rh_section__head .rh_section__title {
+            color: #1a1a1a;
+        }
+
+        .rh_section__partners .rh_section__head .rh_section__desc {
+            color: #808080;
+        }
+
+        .rh_prop_card .rh_prop_card__details,
+        .rh_list_card__wrap .rh_list_card__details_wrap,
+        .rh_list_card__wrap .rh_list_card__map_wrap {
+            background-color: #ffffff;
+        }
+
+        .rh_prop_card .rh_prop_card__details h3 a,
+        .rh_list_card__wrap .rh_list_card__map_wrap h3 a,
+        .rh_list_card__wrap .rh_list_card__details_wrap h3 a {
+            color: #1a1a1a;
+        }
+
+        .rh_prop_card .rh_prop_card__details h3 a:hover,
+        .rh_list_card__wrap .rh_list_card__map_wrap h3 a:hover,
+        .rh_list_card__wrap .rh_list_card__details_wrap h3 a:hover {
+            color: #1ea69a;
+        }
+
+        .rh_prop_card .rh_prop_card__details .rh_prop_card__priceLabel .rh_prop_card__price,
+        .rh_list_card__wrap .rh_list_card__map_details .rh_list_card__priceLabel .rh_list_card__price .price,
+        .rh_list_card__wrap .rh_list_card__priceLabel .rh_list_card__price .price {
+            color: #1ea69a;
+        }
+
+        .rh_list_card__wrap .rh_list_card__details_wrap .rh_list_card__excerpt,
+        .rh_prop_card .rh_prop_card__details .rh_prop_card__excerpt {
+            color: #808080;
+        }
+
+        .rh_prop_card .rh_prop_card__details .rh_prop_card__meta .figure,
+        .rh_prop_card .rh_prop_card__details .rh_prop_card__meta .label,
+        .rh_list_card__meta div .label,
+        .rh_list_card__meta div .figure {
+            color: #444;
+        }
+
+        .rh_prop_card .rh_prop_card__details .rh_prop_card__meta h4,
+        .rh_prop_card .rh_prop_card__details .rh_prop_card__priceLabel .rh_prop_card__status,
+        .rh_list_card__wrap .rh_list_card__map_details .rh_list_card__priceLabel .rh_list_card__price .status,
+        .rh_list_card__meta h4,
+        .rh_list_card__wrap .rh_list_card__priceLabel .rh_list_card__price .status,
+        .rh_list_card__wrap .rh_list_card__priceLabel .rh_list_card__author span {
+            color: #1a1a1a;
+        }
+
+        .rh_prop_card .rh_prop_card__details .rh_prop_card__meta svg,
+        .rh_list_card__meta div svg {
+            fill: #b3b3b3;
+        }
+
+        .rh_overlay {
+            background: rgba(30, 166, 154, 0.7);
+        }
+
+        .rh_prop_card .rh_prop_card__thumbnail .rh_overlay__contents a:hover,
+        .rh_list_card__wrap .rh_list_card__thumbnail .rh_overlay__contents a:hover,
+        .rh_list_card__wrap .rh_list_card__map_thumbnail .rh_overlay__contents a:hover {
+            color: #1ea69a;
+        }
+
+        .rh_label {
+            background: #ea723d;
+        }
+
+        .rh_label span {
+            border-left-color: #ea723d;
+        }
+
+        .rh_footer {
+            background: #303030;
+        }
+
+        .rh_footer:before {
+            border-right-color: #303030;
+        }
+
+        .rh_footer .rh_footer__wrap .designed-by a,
+        .rh_footer .rh_footer__wrap .copyrights a,
+        .rh_footer .rh_footer__social a {
+            color: #808080;
+        }
+
+        .rh_footer .rh_footer__wrap .designed-by a:hover,
+        .rh_footer .rh_footer__wrap .copyrights a:hover,
+        .rh_footer .rh_footer__social a:hover {
+            color: #ffffff;
+        }
+
+        .rh_footer .rh_footer__logo .tag-line,
+        .rh_footer__widgets .textwidget p,
+        .rh_footer__widgets .textwidget,
+        .rh_footer .rh_footer__wrap .copyrights,
+        .rh_footer .rh_footer__wrap .designed-by,
+        .rh_contact_widget .rh_contact_widget__item .content {
+            color: #808080;
+        }
+
+        .rh_contact_widget .rh_contact_widget__item .icon svg {
+            fill: #808080;
+        }
+
+        .rh_menu__user .rh_menu__user_submit a,
+        .rh_btn--primary,
+        .post-password-form input[type="submit"],
+        .widget .searchform input[type="submit"],
+        .comment-form .form-submit .submit,
+        .rh_memberships__selection .ims-stripe-button .stripe-button-el,
+        .rh_memberships__selection #ims-free-button,
+        .rh_contact__form .wpcf7-form input[type="submit"],
+        .widget_mortgage-calculator .mc-wrapper p input[type="submit"],
+        .rh_memberships__selection .ims-receipt-button #ims-receipt,
+        .rh_contact__form .rh_contact__input input[type="submit"],
+        .rh_form__item input[type="submit"],
+        .rh_pagination__pages-nav a,
+        .rh_prop_search__form .rh_prop_search__buttons .rh_prop_search__searchBtn .rh_btn__prop_search,
+        .rh_modal .rh_modal__wrap button {
+            color: #ffffff;
+        }
+
+        .rh_menu__user .rh_menu__user_submit a,
+        .rh_btn--primary,
+        .post-password-form input[type="submit"],
+        .widget .searchform input[type="submit"],
+        .comment-form .form-submit .submit,
+        .rh_memberships__selection .ims-stripe-button .stripe-button-el,
+        .rh_memberships__selection #ims-free-button,
+        .rh_contact__form .wpcf7-form input[type="submit"],
+        .widget_mortgage-calculator .mc-wrapper p input[type="submit"],
+        .rh_memberships__selection .ims-receipt-button #ims-receipt,
+        .rh_contact__form .rh_contact__input input[type="submit"],
+        .rh_form__item input[type="submit"],
+        .rh_pagination__pages-nav a,
+        .rh_prop_search__form .rh_prop_search__buttons .rh_prop_search__searchBtn .rh_btn__prop_search,
+        .rh_modal .rh_modal__wrap button {
+            background: #1ea69a;
+        }
+
+        .rh_menu__user .rh_menu__user_submit a:hover,
+        .rh_btn--primary:hover,
+        .post-password-form input[type="submit"]:hover,
+        .widget .searchform input[type="submit"]:hover,
+        .comment-form .form-submit .submit:hover,
+        .rh_memberships__selection .ims-stripe-button .stripe-button-el:hover,
+        .rh_memberships__selection #ims-free-button:hover,
+        .rh_contact__form .wpcf7-form input[type="submit"]:hover,
+        .widget_mortgage-calculator .mc-wrapper p input[type="submit"]:hover,
+        .rh_memberships__selection .ims-receipt-button #ims-receipt:hover,
+        .rh_contact__form .rh_contact__input input[type="submit"]:hover,
+        .rh_form__item input[type="submit"]:hover,
+        .rh_pagination__pages-nav a:hover,
+        .rh_prop_search__form .rh_prop_search__buttons .rh_prop_search__searchBtn .rh_btn__prop_search:hover,
+        .rh_modal .rh_modal__wrap button:hover {
+            color: #ffffff;
+        }
+
+        .rh_menu__user .rh_menu__user_submit a:hover,
+        .rh_btn--primary:hover,
+        .post-password-form input[type="submit"]:hover,
+        .widget .searchform input[type="submit"]:hover,
+        .comment-form .form-submit .submit:hover,
+        .rh_memberships__selection .ims-stripe-button .stripe-button-el:hover,
+        .rh_memberships__selection #ims-free-button:hover,
+        .rh_contact__form .wpcf7-form input[type="submit"]:hover,
+        .widget_mortgage-calculator .mc-wrapper p input[type="submit"]:hover,
+        .rh_memberships__selection .ims-receipt-button #ims-receipt:hover,
+        .rh_contact__form .rh_contact__input input[type="submit"]:hover,
+        .rh_form__item input[type="submit"]:hover,
+        .rh_pagination__pages-nav a:hover,
+        .rh_prop_search__form .rh_prop_search__buttons .rh_prop_search__searchBtn .rh_btn__prop_search:hover,
+        .rh_modal .rh_modal__wrap button:hover {
+            background: #1c9d92;
+        }
+
+        .rh_prop_search__form .rh_prop_search__buttons .rh_prop_search__searchBtn .rh_btn__prop_search {
+            border-bottom-color: #1ea69a;
+        }
+
+        .rh_prop_search__form .rh_prop_search__buttons .rh_prop_search__searchBtn .rh_btn__prop_search:hover {
+            border-bottom-color: #1c9d92;
+        }
+
+        .rh_gallery__wrap .rh_gallery__item .media_container {
+            background: rgba(30, 166, 154, 0.9);
+        }
+
+        .rh_blog__post .entry-summary p {
+            color: #808080;
+        }
+
+        .rh_blog__post .entry-header {
+            background: #1ea69a;
+        }
+
+        .rh_slide__desc h3 .title,
+        .rh_slide__desc h3 {
+            color: #1a1a1a;
+        }
+
+        .rh_slide__desc h3 .title:hover {
+            color: #1ea69a;
+        }
+
+        .rh_slide__desc p {
+            color: #808080;
+        }
+
+        .rh_slide__desc .rh_slide_prop_price span {
+            color: #1ea69a;
+        }
+
+        .rh_slide__desc .rh_slide__meta_wrap .rh_slide__prop_meta h4,
+        .rh_slide__desc .rh_slide_prop_price h4 {
+            color: #1a1a1a;
+        }
+
+        .rh_slide__desc .rh_slide__meta_wrap .rh_slide__prop_meta span {
+            color: #444444;
+        }
+
+        .rh_slide__prop_meta .rh_svg {
+            fill: #1ea69a;
+        }
+
+        .rh_slide__desc .rh_label {
+            background: #ea723d;
+        }
+
+        .rh_slide__desc .rh_label span {
+            border-left-color: #ea723d;
