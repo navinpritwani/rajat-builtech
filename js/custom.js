@@ -4,6 +4,14 @@
 
     $(document).ready(function () {
 
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50){
+                $('.rh_header').addClass('header-shadow')
+            }
+            else if ($(document).scrollTop() < 50){
+                $('.rh_header').removeClass('header-shadow')
+            }
+        })
         /*-----------------------------------------------------------------------------------*/
         /*  Navigation menu.
          /*-----------------------------------------------------------------------------------*/
