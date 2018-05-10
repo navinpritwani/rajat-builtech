@@ -5,10 +5,10 @@
     $(document).ready(function () {
 
         $(window).scroll(function() {
-            if ($(document).scrollTop() > 50){
+            if ($(document).scrollTop() > 10){
                 $('.rh_header').addClass('header-shadow')
             }
-            else if ($(document).scrollTop() < 50){
+            else if ($(document).scrollTop() < 10){
                 $('.rh_header').removeClass('header-shadow')
             }
         })
