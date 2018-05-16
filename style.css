@@ -1265,13 +1265,13 @@ ul.rh_menu__main ul.sub-menu ul.sub-menu a:hover{background:0;color:#000}
 .btn-large{font-size:1.8rem;font-weight:500;padding:1.5rem 3rem}
 .rh_banner{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:end;-webkit-align-items:flex-end;-ms-flex-align:end;align-items:flex-end;width:100%;}
 .rh_banner .rh_banner__wrap{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;width:100%;position:relative;padding:0 10rem 8rem;margin:0 auto;max-width:1440px}
-.rh_banner .rh_banner__title{color:#fff;font-size:3.6rem;font-weight:400;margin:0}
+.rh_banner .rh_banner__title{font-family: 'Crete Round', serif;color: #013148;font-size:3.6rem;font-weight:400;margin:0}
 .rh_banner .rh_view_type a:hover path{fill:#7c2d8e}
 .rh_banner .rh_view_type .active path{fill:#7c2d8e}
 .rh_banner .rh_view_type svg path{fill:#fff}
 .rh_banner__default{height:20rem}
 .rh_banner__image{height:30rem}
-.rh_banner__cover{display:block;position:absolute;top:0;width:100%;height:100%;background:rgba(0,0,0,.5)}
+.rh_banner__cover{z-index:-1;display:block;position:absolute;top:0;width:100%;height:100%}
 .rh_form{display:block;position:relative;padding:3rem 1.5rem;background:#fff;text-align:left}
 .rh_form #rh_modal__forgot_form{display:none}
 .rh_form__login_wrap{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}
@@ -2431,9 +2431,9 @@ display: none}
 .rh_blog__post .entry-header .entry-title{margin:0;margin-bottom:2rem;font-size:2.1rem;font-weight:500;line-height:1.5;color:#fff}
 .rh_blog__post .entry-header .entry-title a{display:inline-block;color:#fff;font-size:2.1rem;font-weight:500;line-height:1.5;-webkit-transition:.2s all linear;transition:.2s all linear}
 .rh_blog__post .entry-header .entry-title a:hover{color:#e6e5e5;-webkit-transition:.2s all linear;transition:.2s all linear}
-.rh_blog__post .entry-header .entry-meta{color:#1a1a1a;font:400 1.5rem/2 Rubik,sans-serif}
-.rh_blog__post .entry-header .entry-meta .vcard{display:inline-block;color:#1a1a1a}
-.rh_blog__post .entry-header .entry-meta a{color:#1a1a1a;-webkit-transition:.2s all linear;transition:.2s all linear}
+.rh_blog__post .entry-header .entry-meta{color:#fff;font:400 1.5rem/2 Rubik,sans-serif}
+.rh_blog__post .entry-header .entry-meta .vcard{display:inline-block;color:#fff}
+.rh_blog__post .entry-header .entry-meta a{color:#fff;-webkit-transition:.2s all linear;transition:.2s all linear}
 .rh_blog__post .entry-header .entry-meta a:hover{color:#fff;-webkit-transition:.2s all linear;transition:.2s all linear}
 .rh_blog__post .entry-summary{padding:3rem;margin-top:0}
 .rh_agent_form .rh_blog__post .entry-summary .rh_agent_form__row,.rh_blog__post .entry-summary .rh_agent_form .rh_agent_form__row,.rh_blog__post .entry-summary p{line-height:2;margin-bottom:1.5rem}
