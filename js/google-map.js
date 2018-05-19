@@ -73,7 +73,7 @@ $(document).ready(function() {
                     content: 'empty',
                     disableAutoPan: false,
                     maxWidth: 0,
-                    pixelOffset: new google.maps.Size(-250, -330),
+                    pixelOffset: new google.maps.Size(-50, -130),
                     zIndex: null,
                     closeBoxURL: "",
                     infoBoxClearance: new google.maps.Size(1, 1),
@@ -127,11 +127,11 @@ $(document).ready(function() {
                         var c = '<div class="infobox"><div class="infobox-close"><i class="fa fa-close"></i></div>' +
                             '<h3 class="infobox-title"><a href="listing.html">' + marker.data.title + '</a></h3>' +
                             '<h4 class="infobox-address">' + marker.data.address + '</h4>' +
-                            '<div class="infobox-content">' +
-                            '<div class="infobox-image" style="background-image: url(' + marker.data.thumbnail + ');"><ul><li><a href="#"><i class="fa fa-facebook"></i></a></li><li><a href="#"><i class="fa fa-twitter"></i></a></li><li><a href="#"><i class="fa fa-google"></i></a></li></ul></div>' +
-                            '<div class="infobox-body"><div class="infobox-body-inner"><div class="infobox-price">$119.90</div><div class="infobox-category tag">Restaurant</div><p><strong>Class aptent taciti sociosqu ad litora torquent per conubia nostra.</strong></p><p>Etiam vehicula nisi sem, a volutpat diam lacinia eu. Vivamus lorem est, eleifend et urna sed.</p></div>' +
-                            '<div class="infobox-more"><a href="#">Read More <i class="fa fa-chevron-right"></i></a></div>' +
-                            '</div>' +
+                            // '<div class="infobox-content">' +
+                            // '<div class="infobox-image" style="background-image: url(' + marker.data.thumbnail + ');"><ul><li><a href="#"><i class="fa fa-facebook"></i></a></li><li><a href="#"><i class="fa fa-twitter"></i></a></li><li><a href="#"><i class="fa fa-google"></i></a></li></ul></div>' +
+                            // '<div class="infobox-body"><div class="infobox-body-inner"><div class="infobox-price">$119.90</div><div class="infobox-category tag">Restaurant</div><p><strong>Class aptent taciti sociosqu ad litora torquent per conubia nostra.</strong></p><p>Etiam vehicula nisi sem, a volutpat diam lacinia eu. Vivamus lorem est, eleifend et urna sed.</p></div>' +
+                            // '<div class="infobox-more"><a href="#">Read More <i class="fa fa-chevron-right"></i></a></div>' +
+                            // '</div>' +
                             '<div>';
 
                         if (!infobox.isOpen) {
