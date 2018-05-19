@@ -7,7 +7,8 @@
 "thumbnail": "imgs/listing-1.jpg",
 "verified": false,
 "latitude": 21.2224488,
-"longitude": 81.6700472
+"longitude": 81.6700472,
+"link": "rajat-prime.html"
 }
 ,
 {
@@ -16,8 +17,9 @@
 "address": "C-1/74, Sector-7 Near Govind Sarang Complex, New Rajendra Nagar",
 "price": "Avenue 144",
 "thumbnail": "imgs/listing-2.jpg",
-"verified": true,
+"verified": false,
 "latitude": 21.2240438,
-"longitude": 81.6525704
+"longitude": 81.6525704,
+"link": "avenue-144.html"
 }
 ]
