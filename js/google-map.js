@@ -73,7 +73,7 @@ $(document).ready(function() {
                     content: 'empty',
                     disableAutoPan: false,
                     maxWidth: 0,
-                    pixelOffset: new google.maps.Size(-50, -130),
+                    pixelOffset: new google.maps.Size(-50, -200),
                     zIndex: null,
                     closeBoxURL: "",
                     infoBoxClearance: new google.maps.Size(1, 1),
