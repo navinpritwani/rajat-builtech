@@ -2246,7 +2246,7 @@ display: none}
 .floor-plans-accordions .floor-plan-title .floor-plan-meta .floor-price-value{color:#7c2d8e}
 .floor-plans-accordions .floor-plan-content{display:none;padding:2rem;background:#fff;border:1px solid rgba(128,128,128,.2);border-top:0}
 .floor-plans-accordions .floor-plan-content .rh_agent_form .rh_agent_form__row,.floor-plans-accordions .floor-plan-content p,.rh_agent_form .floor-plans-accordions .floor-plan-content .rh_agent_form__row{display:block;margin-bottom:2rem;line-height:1.5}
-.floor-plans-accordions .floor-plan-content img{display:block;margin:0 auto}
+.floor-plans-accordions .floor-plan-content img{display:block;margin:0 auto;}
 .rh_property__video,.rh_property__virtual_tour{display:block;margin-bottom:3rem}
 .rh_property__video .pretty-photo,.rh_property__virtual_tour .pretty-photo{display:block;position:relative}
 .rh_property__video .pretty-photo .play-btn,.rh_property__virtual_tour .pretty-photo .play-btn{position:absolute;top:50%;left:50%;margin-top:-24px;margin-left:-24px;width:48px;height:48px;background:url(//realhomes-modern.inspirythemes.biz/wp-content/themes/realhomes/assets/modern/images/play-btn.png) 50% 50% no-repeat;-webkit-transition:.2s all linear;transition:.2s all linear}

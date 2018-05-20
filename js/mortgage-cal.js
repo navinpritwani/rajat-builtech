@@ -71,7 +71,7 @@
         var outPutString = mc_strings.mc_output_string;
 
         //Currency sign
-        var mcCurrencySign = mc_strings.mc_currency_sign;
+        var mcCurrencySign = 'Rs. ';
 
         // Decimal numbers
         var decimalNumbers = mc_strings.mc_number_of_decimals;
