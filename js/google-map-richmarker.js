@@ -605,7 +605,7 @@ RichMarker.prototype.addDragging_ = function(node) {
 
 
 /**
- * Add dragging listeners.
+ * Add dragging listeneRs.
  *
  * @private
  */
@@ -636,7 +636,7 @@ RichMarker.prototype.addDraggingListeners_ = function() {
 
 
 /**
- * Remove dragging listeners.
+ * Remove dragging listeneRs.
  *
  * @private
  */

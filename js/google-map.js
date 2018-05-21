@@ -121,7 +121,7 @@ $(document).ready(function() {
                         shadow: 0,
                         content: markerTemplate
                     });
-                    markers.push(marker);
+                    markeRs.push(marker);
 
                     google.maps.event.addListener(marker, "click", function () {
                         var c = '<div class="infobox"><div class="infobox-close"><i class="fa fa-close"></i></div>' +

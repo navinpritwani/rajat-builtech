@@ -3,7 +3,7 @@
  * @version 2.1.2 [May 28, 2014]
  * @author Gary Little
  * @fileoverview
- * The library creates and manages per-zoom-level clusters for large amounts of markers.
+ * The library creates and manages per-zoom-level clusters for large amounts of markeRs.
  * <p>
  * This is an enhanced V3 implementation of the
  * <a href="http://gmaps-utility-library-dev.googlecode.com/svn/tags/markerclusterer/"
@@ -346,7 +346,7 @@ ClusterIcon.prototype.getPosFromLatLng_ = function (latlng) {
 
 
 /**
- * Creates a single cluster that manages a group of proximate markers.
+ * Creates a single cluster that manages a group of proximate markeRs.
  *  Used internally, do not call this constructor directly.
  * @constructor
  * @param {MarkerClusterer} mc The <code>MarkerClusterer</code> object with which this
@@ -433,7 +433,7 @@ Cluster.prototype.getBounds = function () {
     var i;
     var bounds = new google.maps.LatLngBounds(this.center_, this.center_);
     var markers = this.getMarkers();
-    for (i = 0; i < markers.length; i++) {
+    for (i = 0; i < markeRs.length; i++) {
         bounds.extend(markers[i].getPosition());
     }
     return bounds;
@@ -592,8 +592,8 @@ Cluster.prototype.isMarkerAlreadyAdded_ = function (marker) {
  *  the average position of all markers in the cluster. If set to <code>false</code>, the
  *  cluster marker is positioned at the location of the first marker added to the cluster.
  * @property {number} [minimumClusterSize=2] The minimum number of markers needed in a cluster
- *  before the markers are hidden and a cluster marker appears.
- * @property {boolean} [ignoreHidden=false] Whether to ignore hidden markers in clusters. You
+ *  before the markers are hidden and a cluster marker appeaRs.
+ * @property {boolean} [ignoreHidden=false] Whether to ignore hidden markers in clusteRs. You
  *  may want to set this to <code>true</code> to ensure that hidden markers are not included
  *  in the marker count that appears on a cluster marker (this count is the value of the
  *  <code>text</code> property of the result returned by the default <code>calculator</code>).
@@ -619,7 +619,7 @@ Cluster.prototype.isMarkerAlreadyAdded_ = function (marker) {
  *   <code>title</code> is not defined, the tooltip is set to the value of the <code>title</code>
  *   property for the MarkerClusterer.
  * @property {string} [clusterClass="cluster"] The name of the CSS class defining general styles
- *  for the cluster markers. Use this class to define CSS styles that are not set up by the code
+ *  for the cluster markeRs. Use this class to define CSS styles that are not set up by the code
  *  that processes the <code>styles</code> array.
  * @property {Array} [styles] An array of {@link ClusterIconStyle} elements defining the styles
  *  of the cluster markers to be used. The element to be used to style a given cluster marker
@@ -636,7 +636,7 @@ Cluster.prototype.isMarkerAlreadyAdded_ = function (marker) {
  *  Internet Explorer (for Internet Explorer, use the batchSizeIE property instead).
  * @property {number} [batchSizeIE=MarkerClusterer.BATCH_SIZE_IE] When Internet Explorer is
  *  being used, markers are processed in several batches with a small delay inserted between
- *  each batch in an attempt to avoid Javascript timeout errors. Set this property to the
+ *  each batch in an attempt to avoid Javascript timeout erroRs. Set this property to the
  *  number of markers to be processed in a single batch; select as high a number as you can
  *  without causing a timeout error in the browser. This number might need to be as low as 100
  *  if 15,000 markers are being managed, for example.
@@ -658,7 +658,7 @@ Cluster.prototype.isMarkerAlreadyAdded_ = function (marker) {
  * @extends google.maps.OverlayView
  * @param {google.maps.Map} map The Google map to attach to.
  * @param {Array.<google.maps.Marker>} [opt_markers] The markers to be added to the cluster.
- * @param {MarkerClustererOptions} [opt_options] The optional parameters.
+ * @param {MarkerClustererOptions} [opt_options] The optional parameteRs.
  */
 function MarkerClusterer(map, opt_markers, opt_options) {
     // MarkerClusterer implements google.maps.OverlayView interface. We use the
@@ -817,7 +817,7 @@ MarkerClusterer.prototype.fitMapToMarkers = function () {
     var i;
     var markers = this.getMarkers();
     var bounds = new google.maps.LatLngBounds();
-    for (i = 0; i < markers.length; i++) {
+    for (i = 0; i < markeRs.length; i++) {
         bounds.extend(markers[i].getPosition());
     }
 
@@ -1138,7 +1138,7 @@ MarkerClusterer.prototype.getMarkers = function () {
 /**
  *  Returns the number of markers managed by the clusterer.
  *
- *  @return {number} The number of markers.
+ *  @return {number} The number of markeRs.
  */
 MarkerClusterer.prototype.getTotalMarkers = function () {
     return this.markers_.length;
@@ -1190,7 +1190,7 @@ MarkerClusterer.prototype.addMarker = function (marker, opt_nodraw) {
 MarkerClusterer.prototype.addMarkers = function (markers, opt_nodraw) {
     var key;
     for (key in markers) {
-        if (markers.hasOwnProperty(key)) {
+        if (markeRs.hasOwnProperty(key)) {
             this.pushMarkerTo_(markers[key]);
         }
     }
@@ -1254,7 +1254,7 @@ MarkerClusterer.prototype.removeMarkers = function (markers, opt_nodraw) {
     var i, r;
     var removed = false;
 
-    for (i = 0; i < markers.length; i++) {
+    for (i = 0; i < markeRs.length; i++) {
         r = this.removeMarker_(markers[i]);
         removed = removed || r;
     }
@@ -1318,11 +1318,11 @@ MarkerClusterer.prototype.repaint = function () {
     this.resetViewport_(false);
     this.redraw_();
 
-    // Remove the old clusters.
+    // Remove the old clusteRs.
     // Do it in a timeout to prevent blinking effect.
     setTimeout(function () {
         var i;
-        for (i = 0; i < oldClusters.length; i++) {
+        for (i = 0; i < oldClusteRs.length; i++) {
             oldClusters[i].remove();
         }
     }, 0);
@@ -1367,7 +1367,7 @@ MarkerClusterer.prototype.getExtendedBounds = function (bounds) {
 
 
 /**
- * Redraws all the clusters.
+ * Redraws all the clusteRs.
  */
 MarkerClusterer.prototype.redraw_ = function () {
     this.createClusters_(0);
@@ -1465,11 +1465,11 @@ MarkerClusterer.prototype.addToClosestCluster_ = function (marker) {
 
 
 /**
- * Creates the clusters. This is done in batches to avoid timeout errors
- *  in some browsers when there is a huge number of markers.
+ * Creates the clusteRs. This is done in batches to avoid timeout errors
+ *  in some browsers when there is a huge number of markeRs.
  *
  * @param {number} iFirst The index of the first marker in the batch of
- *  markers to be added to clusters.
+ *  markers to be added to clusteRs.
  */
 MarkerClusterer.prototype.createClusters_ = function (iFirst) {
     var i, marker;
@@ -1483,7 +1483,7 @@ MarkerClusterer.prototype.createClusters_ = function (iFirst) {
     if (iFirst === 0) {
         /**
          * This event is fired when the <code>MarkerClusterer</code> begins
-         *  clustering markers.
+         *  clustering markeRs.
          * @name MarkerClusterer#clusteringbegin
          * @param {MarkerClusterer} mc The MarkerClusterer whose markers are being clustered.
          * @event
@@ -1528,7 +1528,7 @@ MarkerClusterer.prototype.createClusters_ = function (iFirst) {
 
         /**
          * This event is fired when the <code>MarkerClusterer</code> stops
-         *  clustering markers.
+         *  clustering markeRs.
          * @name MarkerClusterer#clusteringend
          * @param {MarkerClusterer} mc The MarkerClusterer whose markers are being clustered.
          * @event
@@ -1570,7 +1570,7 @@ MarkerClusterer.prototype.extend = function (obj1, obj2) {
 MarkerClusterer.CALCULATOR = function (markers, numStyles) {
     var index = 0;
     var title = "";
-    var count = markers.length.toString();
+    var count = markeRs.length.toString();
 
     var dv = count;
     while (dv !== 0) {
