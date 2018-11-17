@@ -14,11 +14,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="profile" href="https://gmpg.org/xfn/11">
         <meta name="format-detection" content="telephone=no">
-        <title>Prime - Rajat Buildtech</title>
+        <title>Centrum - Rajat Buildtech</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
         <link rel="stylesheet" id="inspiry-google-fonts-css" href="https://fonts.googleapis.com/css?family=Lato%3A400%2C400i%2C700%2C700i%7CRoboto%3A400%2C400i%2C500%2C500i%2C700%2C700i&amp;subset=latin%2Clatin-ext&amp;ver=3.4.1" type="text/css" media="all">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik%3A400%2C400i%2C500%2C500i%2C700%2C700i&amp;subset=latin%2Clatin-ext&amp;ver=3.4.1" type="text/css" media="all">
-        <link rel="stylesheet" type="text/css" href="style.css" media="all">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css" edia="all">
         <style>.contact {
     background: #eee;
     padding: 8px;
@@ -66,23 +67,59 @@ th {
                 </script>
         <!-- Facebook Pixel Code -->
         <script>
-                !function(f,b,e,v,n,t,s)
-                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-                if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-                n.queue=[];t=b.createElement(e);t.async=!0;
-                t.src=v;s=b.getElementsByTagName(e)[0];
-                s.parentNode.insertBefore(t,s)}(window, document,'script',
-                'https://connect.facebook.net/en_US/fbevents.js');
-                fbq('init', '1487574498217566');
-                fbq('track', 'PageView');
-            </script>
+                    !function(f,b,e,v,n,t,s)
+                    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                    n.queue=[];t=b.createElement(e);t.async=!0;
+                    t.src=v;s=b.getElementsByTagName(e)[0];
+                    s.parentNode.insertBefore(t,s)}(window, document,'script',
+                    'https://connect.facebook.net/en_US/fbevents.js');
+                    fbq('init', '1487574498217566');
+                    fbq('track', 'PageView');
+                </script>
         <noscript>
             <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1487574498217566&ev=PageView&noscript=1"/>
         </noscript>
         <!-- End Facebook Pixel Code -->
     </head>
     <body class="property-template-default single single-property postid-45">
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Download Centrum Brochure</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form id="agent-form-id54" class="rh_widget_form agent-form" method="post" action="download.php">
+                            <p class="rh_widget_form__row"> <label for="name">Name</label> <input type="text" name="name" placeholder="Name" required class="required" title="* Please provide your name"/> </p>
+                            <!-- /.rh_widget_form__row -->
+                            <p class="rh_widget_form__row"> <label for="email">Email</label> <input type="text" name="email" placeholder="Email" required class="required" title="* Please provide valid email address"/> </p>
+                            <!-- /.rh_widget_form__row -->
+                            <p class="rh_widget_form__row"> <label for="phone">Phone</label> <input type="text" name="phone" placeholder="Phone" required class="required" title="* Please provide valid phone number"/> </p>
+                            <input type="submit" value="Download" name="submit" class="rh_btn rh_btn--primary rh_widget_form__submit">
+                            <span id="ajax-loader"> <svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" width="32px" height="32px" viewbox="0 0 128 128" xml:space="preserve">
+                                    <rect x="0" y="0" width="100%" height="100%" fill="#FFFFFF"/>
+                                    <g>
+                                        <path d="M75.4 126.63a11.43 11.43 0 0 1-2.1-22.65 40.9 40.9 0 0 0 30.5-30.6 11.4 11.4 0 1 1 22.27 4.87h.02a63.77 63.77 0 0 1-47.8 48.05v-.02a11.38 11.38 0 0 1-2.93.37z" fill="#1ea69a" fill-opacity="1"/>
+                                        <animateTransform attributename="transform" type="rotate" from="0 64 64" to="360 64 64" dur="1000ms" repeatcount="indefinite"></animateTransform>
+                                    </g>
+                                </svg> </span>
+                            <div class="error-container"></div>
+                            <!-- /.error-container -->
+                            <div class="message-container"></div>
+                            <!-- /.message-container -->
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="rh_wrap">
             <div id="rh_progress"></div>
             <!-- /#rh_progress -->
@@ -225,16 +262,17 @@ th {
             <!-- /.rh_prop_search -->
             <section class="rh_section rh_wrap--padding rh_wrap--topPadding">
                 <div class="rh_page rh_page--fullWidth">
+                    <!-- /.rh_page__head -->
                     <div class="rh_property">
                         <div class="rh_property__wrap rh_property--padding">
                             <div class="rh_property__main">
                                 <div class="rh_page__head rh_page__property">
                                     <div class="rh_page__property_title">
                                         <h1 class="rh_page__title">
-                                                Rajat Prime  </h1>
+                                                Centrum </h1>
                                         <!-- /.rh_page__title -->
                                         <p class="rh_page__property_address">
-                                                Amlidhi Main Road, Raipur </p>
+                                                Bhatagaon Chowk, Raipur </p>
                                         <!-- /.rh_page__property_address -->
                                     </div>
                                     <!-- /.rh_page__property_title -->
@@ -248,48 +286,53 @@ th {
                                     </div>
                                     <!-- /.rh_page__property_price -->
                                 </div>
-                                <!-- /.rh_page__head -->
                                 <div id="property-detail-flexslider" class="clearfix">
                                     <div class="flexslider">
                                         <ul class="slides">
                                             <li>
-                                                <a href="imgs/imgs-prime/1.jpg" class="swipebox" rel="gallery_real_homes">
-                                                    <img src="imgs/imgs-prime/1.jpg"/>
+                                                <a href="imgs/imgs-centrum/1.jpeg" class="swipebox" rel="gallery_real_homes">
+                                                    <img src="imgs/imgs-centrum/1.jpeg"/>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="imgs/imgs-prime/2.jpg" class="swipebox" rel="gallery_real_homes">
-                                                    <img src="imgs/imgs-prime/2.jpg"/>
+                                                <a href="imgs/imgs-centrum/2.jpeg" class="swipebox" rel="gallery_real_homes">
+                                                    <img src="imgs/imgs-centrum/2.jpeg"/>
+                                                </a>
+                                            </li>
+                                            <!-- <li>
+                                                        <a href="imgs/imgs-centrum/3.jpeg"
+                                                            class="swipebox" rel="gallery_real_homes">
+                                                            <img src="imgs/imgs-centrum/3.jpeg" />
+                                                        </a>
+                                                </li> -->
+                                            <li>
+                                                <a href="imgs/imgs-centrum/4.jpeg" class="swipebox" rel="gallery_real_homes">
+                                                    <img src="imgs/imgs-centrum/4.jpeg"/>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="imgs/imgs-prime/3.jpg" class="swipebox" rel="gallery_real_homes">
-                                                    <img src="imgs/imgs-prime/3.jpg"/>
+                                                <a href="imgs/imgs-centrum/5.jpeg" class="swipebox" rel="gallery_real_homes">
+                                                    <img src="imgs/imgs-centrum/5.jpeg"/>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="imgs/imgs-prime/4.jpg" class="swipebox" rel="gallery_real_homes">
-                                                    <img src="imgs/imgs-prime/4.jpg"/>
+                                                <a href="imgs/imgs-centrum/6.jpeg" class="swipebox" rel="gallery_real_homes">
+                                                    <img src="imgs/imgs-centrum/6.jpeg"/>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="imgs/imgs-prime/5.jpg" class="swipebox" rel="gallery_real_homes">
-                                                    <img src="imgs/imgs-prime/5.jpg"/>
+                                                <a href="imgs/imgs-centrum/7.jpeg" class="swipebox" rel="gallery_real_homes">
+                                                    <img src="imgs/imgs-centrum/7.jpeg"/>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="imgs/imgs-prime/6.jpg" class="swipebox" rel="gallery_real_homes">
-                                                    <img src="imgs/imgs-prime/6.jpg"/>
+                                                <a href="imgs/imgs-centrum/8.jpeg" class="swipebox" rel="gallery_real_homes">
+                                                    <img src="imgs/imgs-centrum/8.jpeg"/>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="imgs/imgs-prime/7.jpg" class="swipebox" rel="gallery_real_homes">
-                                                    <img src="imgs/imgs-prime/7.jpg"/>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="imgs/imgs-prime/8.jpg" class="swipebox" rel="gallery_real_homes">
-                                                    <img src="imgs/imgs-prime/8.jpg"/>
+                                                <a href="imgs/imgs-centrum/9.jpeg" class="swipebox" rel="gallery_real_homes">
+                                                    <img src="imgs/imgs-centrum/9.jpeg"/>
                                                 </a>
                                             </li>
                                         </ul>
@@ -298,10 +341,10 @@ th {
                                 <div class="rh_property__content">
                                     <div class="rh_property__row rh_property__meta rh_property--borderBottom">
                                         <div class="rh_property__id">
-                                            <img src="imgs/RERACG.png" style="max-width: 20px;max-height: 20px;"/>
+                                            <img src="imgs/RERACG.png" style="max-width: 20px;max-height: 20px;">
                                             <p class="title">&nbsp;&nbsp;RERA Registration Number :</p>
                                             <!-- /.title -->
-                                            <p class="id"><a href="https://rera.cgstate.gov.in/" target="_blank">&nbsp;PCGRERA040718000454</a></p>
+                                            <p class="id">&nbsp;<a href="https://rera.cgstate.gov.in/" target="_blank">PCGRERA200618000251</a></p>
                                             <!-- /.id -->
                                         </div>
                                         <!-- /.rh_property__id -->
@@ -374,7 +417,7 @@ th {
 	                                                c1.104,0,2-0.896,2-2C24,21.262,23.596,20.624,23,20.277z"/>
                                                 </svg>
                                                 <span class="figure">
-                                                680-1313  </span>
+                                                713-1666  </span>
                                                 <span class="label">
                                                 Sq Ft </span>
                                             </div>
@@ -398,7 +441,7 @@ th {
                                                     </g>
                                                 </svg>
                                                 <span class="figure">
-                                                2017 </span>
+                                                New Launch </span>
                                             </div>
                                         </div>
                                         <!-- /.rh_property__meta -->
@@ -431,8 +474,9 @@ th {
                                     <h4 class="rh_property__heading">Description</h4>
                                     <!-- /.rh_property__heading -->
                                     <div class="rh_content">
-                                        <p>In our quest to deliver value, we present our new residential grandeur "PRIME". Strategically located near the recently developed Canal Link Road, PRIME is the first LEED pre-certified residential project in Chhattisgarh. The motivation behind our thoughts and efforts has been to make the residents content and proud of owning their "home" and being a part of the revolution! What you save is what you earn Keeping this in mind, we decided to make our contribution in saving the natural resources by developing the <b>First pre-certified Gold Rated building by Indian Green Building Council in Chattisgarh</b></p>
+                                        <p>In the time where our lives are getting busier, our to-do lists longer, and our break shorter, one thing's for certain, where your lives matters just as much as how you live. Centrum situated right in the heart of Raipur, is a residential enclave that brings you all the accessibility you need, along with all the indulgences you've earned. In doing so, it makes stepping out effortless, and returning home, a joy. It all begins with the location, which offers unparalleled connectivity within the city, as well by road, rail and air. Couple this with easy access to education, healthcare, shopping and entertainment, and you have the place that truly takes the drudgery out of your daily routine.</p>
                                     </div>
+                                    <!-- /.rh_content -->
                                     <div class="rh_property__map_wrap">
                                         <h4 class="rh_property__heading">Discover Neighbourhood</h4>
                                         <div id="floating-panel">
@@ -447,13 +491,14 @@ th {
                                                     <div class="floor-plan-content">
                                                         <div class="floor-plan-desc">
                                                             <!-- <select id="end">
-                                                                <option value="21.221979, 81.6572817">ICICI Bank</option>
-                                                                <option value="21.2220715, 81.6571604">Colors Mall</option>
-                                                                <option value="21.2226503, 81.6562763">Ramkrishna CARE Hospitals</option>
-                                                            </select> -->
+                                                                    <option value="21.221979, 81.6572817">ICICI Bank</option>
+                                                                    <option value="21.2220715, 81.6571604">Colors Mall</option>
+                                                                    <option value="21.2226503, 81.6562763">Ramkrishna CARE Hospitals</option>
+                                                                </select> -->
                                                             <div class="point" data-name="MMI NARAYANA" data-loc="21.216975,81.656685">MMI NARAYANA</div>
                                                             <div class="point" data-name="RAMKRISHNA" data-loc="21.212883,81.6514997">RAMKRISHNA</div>
                                                             <div class="point" data-name="MEDISHINE" data-loc="21.2200745,81.663387">MEDISHINE</div>
+                                                            <div class="point" data-name="AIIMS" data-loc="21.2563352,81.5724426">AIIMS</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -466,7 +511,7 @@ th {
                                                     </div>
                                                     <div class="floor-plan-content">
                                                         <div class="floor-plan-desc">
-                                                            <div class="point" data-name="DRONACHARYA SCHOOL" data-loc="21.2215812,81.6607493">DRONACHARYA SCHOOL</div>
+                                                            <div class="point" data-name="BRAHMVID SCHOOL" data-loc="21.2118562,81.5979307">BRAHMVID SCHOOL</div>
                                                             <div class="point" data-name="KRISHNA PUBLIC SCHOOL" data-loc="21.2118418,81.5302453">KRISHNA PUBLIC SCHOOL</div>
                                                             <div class="point" data-name="HOLY CROSS SCHOOL" data-loc="21.2456757,81.6297055">HOLY CROSS SCHOOL</div>
                                                         </div>
@@ -513,212 +558,194 @@ th {
                                             <div id="TravelTime"></div>
                                         </div>                                         
                                         <script>
-                                              function initMap() {
-                                                var directionsService = new google.maps.DirectionsService;
-                                                var directionsDisplay = new google.maps.DirectionsRenderer({suppressMarkers: true});
-                                                var map = new google.maps.Map(document.getElementById('map'), {
-                                                  zoom: 13,
-                                                  center: {lat: 21.2226227, lng: 81.6698143}
-                                                });
-                                                directionsDisplay.setMap(map);
-                                                var myLatlng = new google.maps.LatLng(21.2226227,81.6698143);
-                                                var Icon = {
-                                                    labelOrigin: new google.maps.Point(20, -20),
-                                                    url : "imgs/marker-start.png",
-                                                    scaledSize: new google.maps.Size(40, 40), // scaled size
-                                                    origin: new google.maps.Point(0,0), // origin
-                                                    anchor: new google.maps.Point(0, 0) // anchor
-                                                }
-                                                var marker = new google.maps.Marker({
-                                                        position: myLatlng,
-                                                        icon : Icon,
-                                                        label: {
-                                                                    color: 'black',
-                                                                    fontWeight: 'bold',
-                                                                    text: 'Rajat Prime',
-                                                                    background : 'white'
-                                                                },
-                                                        labelClass: "labels"
+                                                  function initMap() {
+                                                    var directionsService = new google.maps.DirectionsService;
+                                                    var directionsDisplay = new google.maps.DirectionsRenderer({suppressMarkers: true});
+                                                    var map = new google.maps.Map(document.getElementById('map'), {
+                                                      zoom: 13,
+                                                      center: {lat: 21.2179244, lng: 81.623240}
                                                     });
-                                                marker.setMap(map);
-                                                var points = document.getElementsByClassName('point');
-                                                for(let i=0;i<points.length;i++){
-                                                    var temp = i;
-                                                    points[i].addEventListener('click', function(){
-                                                        onChangeHandler(i);
-                                                    },false)
-                                                }
-                                                function onChangeHandler(ind) {
-                                                  marker.setMap(null);
-                                                  let loc = points[ind].getAttribute('data-loc');
-                                                  let name = points[ind].getAttribute('data-name');
-                                                //   for(let i=0;i<points.length;i++){
-                                                //     if(ind == points[i]){
-                                                //         points[i].className += 'point-active';
-                                                //     }
-                                                //     else{
-                                                //         points[i].style.color = 'inherit';
-                                                //     }
-                                                // }
-                                                  calculateAndDisplayRoute(directionsService, directionsDisplay, loc);
-                                                  calculateAndDisplayDistance(loc,name);
-                                                  
-                                                  showMarker(loc,map,name);
-                                                  showMarker('21.2226227,81.6698143',map,'Rajat Prime');
-                                                  google.maps.event.addListener(showMarker(loc,map,name),"click",function(){
-                                                    calculateAndDisplayRoute(directionsService, directionsDisplay, loc);
-                                                    calculateAndDisplayDistance(loc,name);
-                                                  });
-                                                };
-                                               
-                                                // document.getElementById('start').addEventListener('change', onChangeHandler);
-                                                // document.getElementById('end').addEventListener('change', onChangeHandler);
-                                              }
-                                                // function onChangeHandler(loc) {
-                                                // console.log(document.getElementsByClassName('point')[1].getAttribute('data-loc'));
-                                                // var directionsService = new google.maps.DirectionsService;
-                                                // var directionsDisplay = new google.maps.DirectionsRenderer({suppressMarkers: true});
-                                                //   calculateAndDisplayRoute(directionsService, directionsDisplay, loc);
-                                                // };
-                                                function calculateAndDisplayRoute(directionsService, directionsDisplay,loc) {
-                                                let start = '21.2226227,81.6698143';
-                                                directionsService.route({
-                                                    origin: start,
-                                                    destination: loc,
-                                                  travelMode: 'WALKING'
-                                                }, function(response, status) {
-                                                  if (status === 'OK') {
-                                                    directionsDisplay.setDirections(response);
-                                                    // makeMarker( document.getElementById('end').value, icons.end, "title" );
-                                                  } else {
-                                                    window.alert('Directions request failed due to ' + status);
-                                                  }
-                                                });
-                                              }
-                                              
-                                              function calculateAndDisplayDistance(loc,name) {
-                                                let start = new google.maps.LatLng(21.2226227,81.6698143);
-                                                console.log(name);
-                                                var service = new google.maps.DistanceMatrixService();
-                                                    service.getDistanceMatrix(
-                                                    {
-                                                        origins: [start],
-                                                        destinations: [loc],
-                                                        travelMode: 'DRIVING',
-                                                    }, callback);
-
-                                                    function callback(data, status) {
-                                                    // See Parsing the Results for
-                                                    // the basics of a callback function.
-                                                    console.log(data.rows[0].elements);
-                                                        document.getElementsByClassName('DistanceDialog')[0].style.display = 'block';
-                                                        document.getElementById('distance').innerHTML = data.rows[0].elements[0].distance.text ;
-                                                        document.getElementById('TravelTime').innerHTML = data.rows[0].elements[0].duration.text ;
-                                                        document.getElementById('locName').innerHTML = name;
+                                                    directionsDisplay.setMap(map);
+                                                    var myLatlng = new google.maps.LatLng(21.2179244,81.623240);
+                                                    var Icon = {
+                                                        labelOrigin: new google.maps.Point(20, -20),
+                                                        url : "imgs/marker-start.png",
+                                                        scaledSize: new google.maps.Size(40, 40), // scaled size
+                                                        origin: new google.maps.Point(0,0), // origin
+                                                        anchor: new google.maps.Point(0, 0) // anchor
                                                     }
-                                                 
+                                                    var marker = new google.maps.Marker({
+                                                            position: myLatlng,
+                                                            icon : Icon,
+                                                            label: {
+                                                                        color: 'black',
+                                                                        fontWeight: 'bold',
+                                                                        text: 'Centrum',
+                                                                        background : 'white'
+                                                                    },
+                                                            labelClass: "labels"
+                                                        });
+                                                    marker.setMap(map);
+                                                    var points = document.getElementsByClassName('point');
+                                                    for(let i=0;i<points.length;i++){
+                                                        var temp = i;
+                                                        points[i].addEventListener('click', function(){
+                                                            onChangeHandler(i);
+                                                        },false)
+                                                    }
+                                                    function onChangeHandler(ind) {
+                                                      marker.setMap(null);
+                                                      let loc = points[ind].getAttribute('data-loc');
+                                                      let name = points[ind].getAttribute('data-name');
+                                                    //   for(let i=0;i<points.length;i++){
+                                                    //     if(ind == points[i]){
+                                                    //         points[i].className += 'point-active';
+                                                    //     }
+                                                    //     else{
+                                                    //         points[i].style.color = 'inherit';
+                                                    //     }
+                                                    // }
+                                                      calculateAndDisplayRoute(directionsService, directionsDisplay, loc);
+                                                      calculateAndDisplayDistance(loc,name);
+                                                      
+                                                      showMarker(loc,map,name);
+                                                      showMarker('21.2179244,81.623240',map,'Centrum');
+                                                      google.maps.event.addListener(showMarker(loc,map,name),"click",function(){
+                                                        calculateAndDisplayRoute(directionsService, directionsDisplay, loc);
+                                                        calculateAndDisplayDistance(loc,name);
+                                                      });
+                                                    };
+                                                   
+                                                    // document.getElementById('start').addEventListener('change', onChangeHandler);
+                                                    // document.getElementById('end').addEventListener('change', onChangeHandler);
+                                                  }
+                                                    // function onChangeHandler(loc) {
+                                                    // console.log(document.getElementsByClassName('point')[1].getAttribute('data-loc'));
+                                                    // var directionsService = new google.maps.DirectionsService;
+                                                    // var directionsDisplay = new google.maps.DirectionsRenderer({suppressMarkers: true});
+                                                    //   calculateAndDisplayRoute(directionsService, directionsDisplay, loc);
+                                                    // };
+                                                    function calculateAndDisplayRoute(directionsService, directionsDisplay,loc) {
+                                                    let start = '21.2179244,81.623240';
+                                                    directionsService.route({
+                                                        origin: start,
+                                                        destination: loc,
+                                                      travelMode: 'WALKING'
+                                                    }, function(response, status) {
+                                                      if (status === 'OK') {
+                                                        directionsDisplay.setDirections(response);
+                                                        // makeMarker( document.getElementById('end').value, icons.end, "title" );
+                                                      } else {
+                                                        window.alert('Directions request failed due to ' + status);
+                                                      }
+                                                    });
+                                                  }
+                                                  
+                                                  function calculateAndDisplayDistance(loc,name) {
+                                                    let start = new google.maps.LatLng(21.2179244,81.623240);
+                                                    console.log(name);
+                                                    var service = new google.maps.DistanceMatrixService();
+                                                        service.getDistanceMatrix(
+                                                        {
+                                                            origins: [start],
+                                                            destinations: [loc],
+                                                            travelMode: 'DRIVING',
+                                                        }, callback);
 
-                                              }
+                                                        function callback(data, status) {
+                                                        // See Parsing the Results for
+                                                        // the basics of a callback function.
+                                                        console.log(data.rows[0].elements);
+                                                            document.getElementsByClassName('DistanceDialog')[0].style.display = 'block';
+                                                            document.getElementById('distance').innerHTML = data.rows[0].elements[0].distance.text ;
+                                                            document.getElementById('TravelTime').innerHTML = data.rows[0].elements[0].duration.text ;
+                                                            document.getElementById('locName').innerHTML = name;
+                                                        }
+                                                     
 
-                                              function showMarker(loc,map,name){
-                                                var myLatlng = {lat : Number(loc.split(',')[0]), lng : Number(loc.split(',')[1])};
-                                                var Icon = {
-                                                    labelOrigin: new google.maps.Point(20, -20),
-                                                    url : "imgs/marker-start.png",
-                                                    scaledSize: new google.maps.Size(40, 40), // scaled size
-                                                    origin: new google.maps.Point(0,0), // origin
-                                                    anchor: new google.maps.Point(0, 0) // anchor
-                                                }
-                                                var marker = new google.maps.Marker({
-                                                        position: myLatlng,
-                                                        icon : Icon,
-                                                        map : map,
-                                                        label: {
-                                                                    color: 'black',
-                                                                    fontWeight: 'bold',
-                                                                    text: name,
-                                                                    background : 'white'
-                                                                }
-                                                });
-                                                return marker;
-                                              }
+                                                  }
 
-                                              
-                                            </script>                                         
+                                                  function showMarker(loc,map,name){
+                                                    var myLatlng = {lat : Number(loc.split(',')[0]), lng : Number(loc.split(',')[1])};
+                                                    var Icon = {
+                                                        labelOrigin: new google.maps.Point(20, -20),
+                                                        url : "imgs/marker-start.png",
+                                                        scaledSize: new google.maps.Size(40, 40), // scaled size
+                                                        origin: new google.maps.Point(0,0), // origin
+                                                        anchor: new google.maps.Point(0, 0) // anchor
+                                                    }
+                                                    var marker = new google.maps.Marker({
+                                                            position: myLatlng,
+                                                            icon : Icon,
+                                                            map : map,
+                                                            label: {
+                                                                        color: 'black',
+                                                                        fontWeight: 'bold',
+                                                                        text: name,
+                                                                        background : 'white'
+                                                                    }
+                                                    });
+                                                    return marker;
+                                                  }
+
+                                                  
+                                                </script>                                         
                                     </div>
-                                    <!-- /.rh_content -->
-                                    <h4 class="rh_property__heading rh_property__additional_details">Specifications</h4>
+                                    <h4 class="rh_property__heading rh_property__additional_details">Key Features</h4>
                                     <ul class="rh_property__additional clearfix">
                                         <li>
-                                            <span class="title">STRUCTURE</span>
-                                            <span class="value">Earthquake seismic zone II compliant structure
-                                            Anti termite treatment</span>
+                                            <span class="title">IMPOSING LOBBY WITH HIGH CEILING AND DESIGNER FURNISHINGS</span>
                                         </li>
                                         <li>
-                                            <span class="title">FLOORING</span>
-                                            <span class="value">Vitrified, Ceramic tiles in living room
-                                            Dining and bedroom</span>
+                                            <span class="title">SPACIOUS 2 AND 3 BHK WITH 10.6" FEET HIGH CEILINGS</span>
                                         </li>
                                         <li>
-                                            <span class="title">PLUMBING</span>
-                                            <span class="value">All plumbing lines are pressured tested
-                                            All water supply lines are of CPVC, PPR of reputed make
-                                            PVC sewer lines</span>
+                                            <span class="title">24 HOURS POWER BACKUP FOR LIFTS AND COMMON AREA</span>
                                         </li>
                                         <li>
-                                            <span class="title">PAINTING/POLISHING</span>
-                                            <span class="value">Interior: Internal putty finish, exterior external emulsion paint 
-                                            External: External emulsion paint
-                                            Enamel painting for MS grill, door shutters</span>
+                                            <span class="title">BRANDED QUALITY FITTING AND FINISHES</span>
                                         </li>
                                         <li>
-                                            <span class="title">KITCHEN</span>
-                                            <span class="value">Cladding with glazed tiles above the kitchen platform
-                                            Granite kitchen platform with stainless steel sink will be provided (electrical / plumbing points will be provided)</span>
-                                        </li>
-                                        <li>
-                                            <span class="title">DOORS</span>
-                                            <span class="value">Teak finish doors with polish
-                                            Good quality brass/ chrome finish hardware</span>
+                                            <span class="title">BARRIER-FREE ACCESSIBILITY FOR THE SENIOR CITIZENS AND SPECIALLY ABLED</span>
                                         </li>
                                     </ul>
                                     <div class="rh_property__common_note">
-                                        <h4 class="rh_property__heading">Raipur's 1st All Green Project</h4>
+                                        <h4 class="rh_property__heading">Common Note</h4>
                                         <p>
-                                        Rajat PRIME will be special not just for providing a comfortable residence but a world class lifestyle. The apartments of the project boasts of world-class amenities and meticulous space planning.'</p>
+                                        With the wide variety of amenities at CENTRUM, caring for your mind, body and soul is a lot simpler. From the well equipped gym to the airy yoga deck, from the lively multipurpose court to the serene meditation cabana, here, there's something for everyone seeking to live a healthier, more energetic life</p>
                                     </div>
                                     <div class="rh_property__features_wrap">
                                         <h4 class="rh_property__heading">Features</h4>
                                         <ul class="rh_property__features arrow-bullet-list">
                                             <li class="rh_property__feature" id="rh_property__feature_17">
-                                                TERRACE GARDEN
+                                                LAVISH BANQUET HALL WITH PARTY LAWN
 </li>
                                             <li class="rh_property__feature" id="rh_property__feature_30">
-                                                POWER BACKUP FOR LIFTS & COMMON AREAS
+                                                KIDS PLAY AREA
 </li>
                                             <li class="rh_property__feature" id="rh_property__feature_34">
-                                                BARRIER FREE DESIGN FOR SENIOR & PHYSICALLY CHALLENGED
+                                                AL FRESCO DECK
 </li>
                                             <li class="rh_property__feature" id="rh_property__feature_35">
-                                                MODERN COMFORT SECURITY SYSTEM
+                                                WELL-EQUIPPED GYMNASIUM
 </li>
                                             <li class="rh_property__feature" id="rh_property__feature_17">
-                                                CHILDREN'S PLAY EQUIPMENT MADE OF LEAD FREE PLASTIC
+                                                JOGGING TRACK WITH LUSH SURROUNDS
 </li>
                                             <li class="rh_property__feature" id="rh_property__feature_30">
-                                                RAIN WATER HARVESTING
+                                                SPACIOUS YOGA DECK
 </li>
                                             <li class="rh_property__feature" id="rh_property__feature_34">
-                                                INTERCOM FACILITY FOR EVERY FLAT
+                                                ZEN GARDEN
 </li>
                                             <li class="rh_property__feature" id="rh_property__feature_35">
-                                                COMMUNITY HALL
-</li>
-                                            <li class="rh_property__feature" id="rh_property__feature_35">
-                                                BRANDED QUALITY FITTING AND FINISHES
+                                                STARGAZING CORNER WITH TELESCOPE
 </li>
                                             <li class="rh_property__feature" id="rh_property__feature_17">
-                                                CHILDREN PLAY AREA
+                                                BARBEQUE CORNER
+</li>
+                                            <li class="rh_property__feature" id="rh_property__feature_30">
+                                                SEATING PLAZA FOR THE ELDERLY
 </li>
                                         </ul>
                                     </div>
@@ -726,7 +753,81 @@ th {
                                         <h3 class="rh_property__heading floor-plans-label">Plans</h3>
                                         <div class="floor-plans-accordions">
                                             <div class="floor-plan">
-</div>
+                                                <div class="floor-plan-title">
+                                                    <div class="title">
+                                                        <i class="fa fa-plus"></i>
+                                                        <h3>1 BHK Appartment</h3>
+                                                    </div>
+                                                    <div class="floor-plan-meta">
+                                                        <p>713 sq ft</p>
+                                                        <p>1 Bedroom</p>
+                                                        <p>1 Balcony</p>
+                                                        <p>2 Bathroom</p>
+                                                    </div>
+                                                </div>
+                                                <div class="floor-plan-content">
+                                                    <!-- <div class="floor-plan-desc">
+                                                    <p>Progressively maintain extensive infomediaries via extensible niches.
+                                                        Dramatically disseminate standardized metrics after resource-leveling
+                                                        processes. Objectively pursue diverse catalysts for change for interoperable
+                                                        meta-services.</p>
+                                                </div> -->
+                                                    <div class="floor-plan-map table-responsive">
+                                                        <table class="table web-view">
+                                                            <tr>
+                                                                <th>FLOOR PLAN</th>
+                                                                <th>INCLUSIONS</th>
+                                                                <th>AREA DETAILS</th>
+                                                                <th>NEW BOOKING BASE PRICE</th>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="imgs/imgs-centrum/1bhk-floor.jpg" class="swipebox" target="_blank">
+                                                                        <img src="imgs/imgs-centrum/1bhk-floor.jpg" alt="1BHK Floor Plan">
+                                                                    </a>
+                                                                </td>
+                                                                <td> <p>1 Bedroom</p> <p>1 Balcony</p> <p>2 Bathroom</p> </td>
+                                                                <td> <p>Carpet Area : <b>472 Sqft </b></p> <p>Area Under Possesion : <b>570 Sqft</b></p><p>Total Usable Area :<b>713 Sqft </b></p> </td>
+                                                                <td>
+                                                                    Contact us for price enquiry
+                                                                    <br>
+                                                                    <br>
+                                                                    <a href="contact.html" class="contact">Contact Now</a>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                        <div class="table-mobile">
+                                                            <table>
+                                                                <tr>
+                                                                    <th>FLOOR PLAN</th>
+                                                                    <th>INCLUSIONS</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <a href="imgs/imgs-centrum/1bhk-floor.jpg" class="swipebox" target="_blank">
+                                                                            <img src="imgs/imgs-centrum/1bhk-floor.jpg" alt="1BHK Floor Plan">
+                                                                        </a>
+                                                                    </td>
+                                                                    <td> <p>1 Bedroom</p> <p>1 Balcony</p> <p>2 Bathroom</p> </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>AREA DETAILS</th>
+                                                                    <th>NEW BOOKING BASE PRICE</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td> <p>Super Built-up Area : <b> 713 Sqft </b></p> <p>Built-up Area : <b> 574 Sqft </b></p> </td>
+                                                                    <td>
+                                                                        Contact us for price enquiry
+                                                                        <br>
+                                                                        <br>
+                                                                        <a href="contact.html" class="contact">Contact Now</a>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <div class="floor-plan">
                                                 <div class="floor-plan-title">
                                                     <div class="title">
@@ -734,9 +835,9 @@ th {
                                                         <h3>2 BHK Appartment</h3>
                                                     </div>
                                                     <div class="floor-plan-meta">
-                                                        <p>1193 sq ft</p>
+                                                        <p>1099 sq ft</p>
                                                         <p>2 Bedroom</p>
-                                                        <p>1 Balcony</p>
+                                                        <p>1/2 Balcony</p>
                                                         <p>2 Bathroom</p>
                                                     </div>
                                                 </div>
@@ -757,86 +858,32 @@ th {
                                                             </tr>
                                                             <tr>
                                                                 <td>
-                                                                    <p style="text-align: center;">Type A</p>
-                                                                    <a href="imgs/imgs-prime/2bhk-1-prime.jpg" class="swipebox" target="_blank">
-                                                                        <img src="imgs/imgs-prime/2bhk-1-prime.jpg" alt="2BHK Floor Plan">
+                                                                    <a href="imgs/imgs-centrum/2bhk-1-floor.jpg" class="swipebox" target="_blank">
+                                                                        <img src="imgs/imgs-centrum/2bhk-1-floor.jpg" alt="2BHK Floor Plan">
                                                                     </a>
                                                                 </td>
                                                                 <td> <p>2 Bedroom</p> <p>1 Balcony</p> <p>2 Bathroom</p> </td>
+                                                                <td> <p>Carpet Area : <b>741 Sqft</b></p><p>Area Under Possesion : <b>879 Sqft</b></p><p>Total Usable Area :<b>1099 Sqft</b></p> </td>
                                                                 <td>
-                                                                    <p>Carpet Area : <b>736 Sqft </b></p>
-                                                                    <p>Area Under Possesion : <b>945 Sqft</b></p>
-                                                                    <p>Total Usable Area :<b>1110 Sqft</b></p>
-                                                                    <!-- <p>Built-up Area : <b> 869 Sqft </b></p> -->
-                                                                </td>
-                                                                <td>
-                                                                    <b>₹ 33.26 Lac</b>
+                                                                    Contact us for price enquiry
                                                                     <br>
                                                                     <br>
-                                                                    <a href="contact.html" class="contact">Contact for Deals</a>
+                                                                    <a href="contact.html" class="contact">Contact Now</a>
                                                                 </td>
                                                             </tr>
                                                             <tr>
                                                                 <td>
-                                                                    <a href="imgs/imgs-prime/2bhk-2-prime.jpg" class="swipebox" target="_blank">
-                                                                        <p style="text-align: center;">Type B</p>
-                                                                        <img src="imgs/imgs-prime/2bhk-2-prime.jpg" alt="2BHK Floor Plan">
+                                                                    <a href="imgs/imgs-centrum/2bhk-2-floor.jpg" class="swipebox" target="_blank">
+                                                                        <img src="imgs/imgs-centrum/2bhk-2-floor.jpg" alt="2BHK Floor Plan">
                                                                     </a>
                                                                 </td>
-                                                                <td> <p>2 Bedroom</p> <p>1 Balcony</p> <p>2 Bathroom</p> </td>
+                                                                <td> <p>2 Bedroom</p> <p>2 Balcony</p> <p>2 Bathroom</p> </td>
+                                                                <td> <p>Carpet Area : <b>749 Sqft</b></p><p>Area Under Possesion : <b>923 Sqft</b></p><p>Total Usable Area :<b>1151 Sqft</b></p> </td>
                                                                 <td>
-                                                                    <p>Carpet Area : <b>769 Sqft</b></p>
-                                                                    <p>Area Under Possesion : <b>987 Sqft</b></p>
-                                                                    <p>Total Usable Area :<b>1169 Sqft</b></p>
-                                                                    <!-- <p>Built-up Area : <b> 920 Sqft </b></p> -->
-                                                                </td>
-                                                                <td>
-                                                                    <b>₹ 35.74 Lac</b>
+                                                                    Contact us for price enquiry
                                                                     <br>
                                                                     <br>
-                                                                    <a href="contact.html" class="contact">Contact for Deals</a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <a href="imgs/imgs-prime/2bhk-2-prime.jpg" class="swipebox" target="_blank">
-                                                                        <p style="text-align: center;">Type C</p>
-                                                                        <img src="imgs/imgs-prime/2bhk-2-prime.jpg" alt="2BHK Floor Plan">
-                                                                    </a>
-                                                                </td>
-                                                                <td> <p>2 Bedroom</p> <p>1 Balcony</p> <p>2 Bathroom</p> </td>
-                                                                <td>
-                                                                    <p>Carpet Area : <b>797 Sqft</b></p>
-                                                                    <p>Area Under Possesion : <b>1016 Sqft</b></p>
-                                                                    <p>Total Usable Area :<b>1193 Sqft</b></p>
-                                                                    <!-- <p>Built-up Area : <b> 920 Sqft </b></p> -->
-                                                                </td>
-                                                                <td>
-                                                                    <b>₹ 35.74 Lac</b>
-                                                                    <br>
-                                                                    <br>
-                                                                    <a href="contact.html" class="contact">Contact for Deals</a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <a href="imgs/imgs-prime/2bhk-2-prime.jpg" class="swipebox" target="_blank">
-                                                                        <p style="text-align: center;">Type D</p>
-                                                                        <img src="imgs/imgs-prime/2bhk-2-prime.jpg" alt="2BHK Floor Plan">
-                                                                    </a>
-                                                                </td>
-                                                                <td> <p>2 Bedroom</p> <p>1 Balcony</p> <p>2 Bathroom</p> </td>
-                                                                <td>
-                                                                    <p>Carpet Area : <b>789 Sqft</b></p>
-                                                                    <p>Area Under Possesion : <b>1005 Sqft</b></p>
-                                                                    <p>Total Usable Area :<b>1185 Sqft</b></p>
-                                                                    <!-- <p>Built-up Area : <b> 920 Sqft </b></p> -->
-                                                                </td>
-                                                                <td>
-                                                                    <b>₹ 35.74 Lac</b>
-                                                                    <br>
-                                                                    <br>
-                                                                    <a href="contact.html" class="contact">Contact for Deals</a>
+                                                                    <a href="contact.html" class="contact">Contact Now</a>
                                                                 </td>
                                                             </tr>
                                                         </table>
@@ -848,8 +895,8 @@ th {
                                                                 </tr>
                                                                 <tr>
                                                                     <td>
-                                                                        <a href="imgs/imgs-prime/2bhk-1-prime.jpg" class="swipebox" target="_blank">
-                                                                            <img src="imgs/imgs-prime/2bhk-1-prime.jpg" alt="2BHK Floor Plan">
+                                                                        <a href="imgs/imgs-centrum/2bhk-1-floor.jpg" class="swipebox" target="_blank">
+                                                                            <img src="imgs/imgs-centrum/2bhk-1-floor.jpg" alt="2BHK Floor Plan">
                                                                         </a>
                                                                     </td>
                                                                     <td> <p>2 Bedroom</p> <p>1 Balcony</p> <p>2 Bathroom</p> </td>
@@ -859,15 +906,12 @@ th {
                                                                     <th>NEW BOOKING BASE PRICE</th>
                                                                 </tr>
                                                                 <tr>
+                                                                    <td> <p>Super Built-up Area : <b> 1099 Sqft </b></p> <p>Built-up Area : <b> 869 Sqft </b></p> </td>
                                                                     <td>
-                                                                        <p>Super Built-up Area : <b> 1110 Sqft </b></p>
-                                                                        <!-- <p>Built-up Area : <b> 869 Sqft </b></p> -->
-                                                                    </td>
-                                                                    <td>
-                                                                        <b>₹ 33.26 Lac</b>
+                                                                        Contact us for price enquiry
                                                                         <br>
                                                                         <br>
-                                                                        <a href="contact.html" class="contact">Book Now</a>
+                                                                        <a href="contact.html" class="contact">Contact Now</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr style="height: 8px;">
@@ -878,26 +922,23 @@ th {
                                                                 </tr>
                                                                 <tr>
                                                                     <td>
-                                                                        <a href="imgs/imgs-prime/2bhk-2-prime.jpg" class="swipebox" target="_blank">
-                                                                            <img src="imgs/imgs-prime/2bhk-2-prime.jpg" alt="2BHK Floor Plan">
+                                                                        <a href="imgs/imgs-centrum/2bhk-2-floor.jpg" class="swipebox" target="_blank">
+                                                                            <img src="imgs/imgs-centrum/2bhk-2-floor.jpg" alt="2BHK Floor Plan">
                                                                         </a>
                                                                     </td>
-                                                                    <td> <p>2 Bedroom</p> <p>1 Balcony</p> <p>2 Bathroom</p> </td>
+                                                                    <td> <p>2 Bedroom</p> <p>2 Balcony</p> <p>2 Bathroom</p> </td>
                                                                 </tr>
                                                                 <tr>
                                                                     <th>AREA DETAILS</th>
                                                                     <th>NEW BOOKING BASE PRICE</th>
                                                                 </tr>
                                                                 <tr>
+                                                                    <td> <p>Super Built-up Area : <b> 1151 Sqft </b></p> <p>Built-up Area : <b> 920 Sqft </b></p> </td>
                                                                     <td>
-                                                                        <p>Super Built-up Area : <b> 1193 Sqft </b></p>
-                                                                        <!-- <p>Built-up Area : <b> 920 Sqft </b></p> -->
-                                                                    </td>
-                                                                    <td>
-                                                                        <b>₹ 35.74 Lac</b>
+                                                                        Contact us for price enquiry
                                                                         <br>
                                                                         <br>
-                                                                        <a href="contact.html" class="contact">Contact</a>
+                                                                        <a href="contact.html" class="contact">Contact Now</a>
                                                                     </td>
                                                                 </tr>
                                                             </table>
@@ -912,9 +953,9 @@ th {
                                                         <h3>3 BHK Appartment</h3>
                                                     </div>
                                                     <div class="floor-plan-meta">
-                                                        <p>1313 sq ft</p>
+                                                        <p>1666 sq ft</p>
                                                         <p>3 Bedroom</p>
-                                                        <p>1 Balcony</p>
+                                                        <p>3 Balcony</p>
                                                         <p>3 Bathroom</p>
                                                     </div>
                                                 </div>
@@ -935,47 +976,32 @@ th {
                                                             </tr>
                                                             <tr>
                                                                 <td>
-                                                                    <a href="imgs/imgs-prime/3bhk-1-prime.jpg" class="swipebox" target="_blank">
-                                                                        <img src="imgs/imgs-prime/3bhk-1-prime.jpg" alt="1BHK Floor Plan">
+                                                                    <a href="imgs/imgs-centrum/3bhk-1-floor.jpg" class="swipebox" target="_blank">
+                                                                        <img src="imgs/imgs-centrum/3bhk-1-floor.jpg" alt="1BHK Floor Plan">
                                                                     </a>
                                                                 </td>
-                                                                <td> <p>3 Bedroom</p> <p>1 Balcony</p> <p>2 Bathroom</p> </td>
+                                                                <td> <p>3 Bedroom</p> <p>3 Balcony</p> <p>3 Bathroom</p> </td>
+                                                                <td> <p>Carpet Area : <b>1068 Sqft</b></p><p>Area Under Possesion : <b>1324 Sqft</b></p><p>Total Usable Area :<b>1659 Sqft</b></p> </td>
                                                                 <td>
-                                                                    <p>Carpet Area : <b>870 Sqft</b></p>
-                                                                    <p>Area Under Possesion : <b>1120 Sqft</b></p>
-                                                                    <p>Total Usable Area :<b>1313 Sqft</b></p>
-                                                                    <!-- <p>Built-up Area : <b> 1343 Sqft </b></p> -->
-                                                                </td>
-                                                                <td>
-                                                                    <b>₹ 39.34 Lac</b>
+                                                                    Contact us for price enquiry
                                                                     <br>
                                                                     <br>
-                                                                    <a href="contact.html" class="contact">Contact for Deals</a>
+                                                                    <a href="contact.html" class="contact">Contact Now</a>
                                                                 </td>
                                                             </tr>
                                                             <tr>
                                                                 <td>
-                                                                    <a href="imgs/imgs-prime/3bhk-1-prime.jpg" class="swipebox" target="_blank">
-                                                                        <img src="imgs/imgs-prime/3bhk-1-prime.jpg" alt="1BHK Floor Plan">
+                                                                    <a href="imgs/imgs-centrum/3bhk-2-floor.jpg" class="swipebox" target="_blank">
+                                                                        <img src="imgs/imgs-centrum/3bhk-2-floor.jpg" alt="1BHK Floor Plan">
                                                                     </a>
                                                                 </td>
+                                                                <td> <p>3 Bedroom</p> <p>3 Balcony</p> <p>3 Bathroom</p> </td>
+                                                                <td> <p>Carpet Area : <b>1068 Sqft</b></p><p>Area Under Possesion : <b>1326 Sqft</b></p><p>Total Usable Area :<b>1666 Sqft</b></p> </td>
                                                                 <td>
-                                                                    <p>3 Bedroom</p>
-                                                                    <p>1 Balcony</p>
-                                                                    <!-- <p>3 Balcony</p> -->
-                                                                    <p>2 Bathroom</p>
-                                                                </td>
-                                                                <td>
-                                                                    <p>Carpet Area : <b>840 Sqft </b></p>
-                                                                    <p>Area Under Possesion : <b>1065 Sqft</b></p>
-                                                                    <p>Total Usable Area :<b>1249 Sqft</b></p>
-                                                                    <!-- <p>Built-up Area : <b> 135 Sqft </b></p> -->
-                                                                </td>
-                                                                <td>
-                                                                    <b>₹ 37.42 Lac</b>
+                                                                    Contact us for price enquiry
                                                                     <br>
                                                                     <br>
-                                                                    <a href="contact.html" class="contact">Contact for Deals</a>
+                                                                    <a href="contact.html" class="contact">Contact Now</a>
                                                                 </td>
                                                             </tr>
                                                         </table>
@@ -987,26 +1013,23 @@ th {
                                                                 </tr>
                                                                 <tr>
                                                                     <td>
-                                                                        <a href="imgs/imgs-prime/3bhk-1-prime.jpg" class="swipebox" target="_blank">
-                                                                            <img src="imgs/imgs-prime/3bhk-1-prime.jpg" alt="1BHK Floor Plan">
+                                                                        <a href="imgs/imgs-centrum/3bhk-1-floor.jpg" class="swipebox" target="_blank">
+                                                                            <img src="imgs/imgs-centrum/3bhk-1-floor.jpg" alt="1BHK Floor Plan">
                                                                         </a>
                                                                     </td>
-                                                                    <td> <p>3 Bedroom</p> <p>1 Balcony</p> <p>2 Bathroom</p> </td>
+                                                                    <td> <p>3 Bedroom</p> <p>3 Balcony</p> <p>3 Bathroom</p> </td>
                                                                 </tr>
                                                                 <tr>
                                                                     <th>AREA DETAILS</th>
                                                                     <th>NEW BOOKING BASE PRICE</th>
                                                                 </tr>
                                                                 <tr>
+                                                                    <td> <p>Super Built-up Area : <b> 1659 Sqft </b></p> <p>Built-up Area : <b> 1343 Sqft </b></p> </td>
                                                                     <td>
-                                                                        <p>Super Built-up Area : <b> 1313 Sqft </b></p>
-                                                                        <!-- <p>Built-up Area : <b> 1343 Sqft </b></p> -->
-                                                                    </td>
-                                                                    <td>
-                                                                        <b>₹ 39.34 Lac </b>
+                                                                        Contact us for price enquiry
                                                                         <br>
                                                                         <br>
-                                                                        <a href="contact.html" class="contact">Contact</a>
+                                                                        <a href="contact.html" class="contact">Contact Now</a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr style="height: 8px;">
@@ -1017,30 +1040,23 @@ th {
                                                                 </tr>
                                                                 <tr>
                                                                     <td>
-                                                                        <a href="imgs/imgs-prime/3bhk-1-prime.jpg" class="swipebox" target="_blank">
-                                                                            <img src="imgs/imgs-prime/3bhk-1-prime.jpg" alt="1BHK Floor Plan">
+                                                                        <a href="imgs/imgs-centrum/3bhk-2-floor.jpg" class="swipebox" target="_blank">
+                                                                            <img src="imgs/imgs-centrum/3bhk-2-floor.jpg" alt="1BHK Floor Plan">
                                                                         </a>
                                                                     </td>
-                                                                    <td>
-                                                                        <p>3 Bedroom</p>
-                                                                        <!-- <p>3 Balcony</p> -->
-                                                                        <p>3 Bathroom</p>
-                                                                    </td>
+                                                                    <td> <p>3 Bedroom</p> <p>3 Balcony</p> <p>3 Bathroom</p> </td>
                                                                 </tr>
                                                                 <tr>
                                                                     <th>AREA DETAILS</th>
                                                                     <th>NEW BOOKING BASE PRICE</th>
                                                                 </tr>
                                                                 <tr>
+                                                                    <td> <p>Super Built-up Area : <b> 1666 Sqft </b></p> <p>Built-up Area : <b> 135 Sqft </b></p> </td>
                                                                     <td>
-                                                                        <p>Super Built-up Area : <b> 1249 Sqft </b></p>
-                                                                        <!-- <p>Built-up Area : <b> 135 Sqft </b></p> -->
-                                                                    </td>
-                                                                    <td>
-                                                                        <b>₹ 37.42 Lac</b>
+                                                                        Contact us for price enquiry
                                                                         <br>
                                                                         <br>
-                                                                        <a href="contact.html" class="contact">Contact</a>
+                                                                        <a href="contact.html" class="contact">Contact Now</a>
                                                                     </td>
                                                                 </tr>
                                                             </table>
@@ -1073,9 +1089,9 @@ th {
                                     <section class="widget rh_property_agent ">
                                         <div class="rh_property_agent__enquiry_form">
                                             <form id="agent-form-id54" class="rh_widget_form agent-form" method="post" action="contact.php">
-                                                <p class="rh_widget_form__row"> <label for="name">Name</label> <input type="text" name="name" placeholder="Name" class="required" title="* Please provide your name"/> </p>
+                                                <p class="rh_widget_form__row"> <label for="name">Name</label> <input type="text" name="name" placeholder="Name" required class="required" title="* Please provide your name"/> </p>
                                                 <!-- /.rh_widget_form__row -->
-                                                <p class="rh_widget_form__row"> <label for="email">Email</label> <input type="text" name="email" placeholder="Email" class="required" title="* Please provide valid email address"/> </p>
+                                                <p class="rh_widget_form__row"> <label for="email">Email</label> <input type="text" name="email" placeholder="Email" required class="required" title="* Please provide valid email address"/> </p>
                                                 <!-- /.rh_widget_form__row -->
                                                 <p class="rh_widget_form__row"> <label for="phone">Phone</label> <input type="text" name="phone" placeholder="Phone" class="required" title="* Please provide valid phone number"/> </p>
                                                 <!-- /.rh_widget_form__row -->
@@ -1363,7 +1379,7 @@ th {
                                                 listeners: [],
                                                 forms: {
                                                     on: function (event, callback) {
-                                                        window.mc4wp.listeners.push({
+                                                        window.mc4wp.listeneRs.push({
                                                             event: event,
                                                             callback: callback
                                                         });
@@ -1410,6 +1426,8 @@ th {
         <!-- /.rh_wrap -->
         <script async defer src="https://maps.googleapis.com/maps/api/js?libraries=weather,geometry,visualization,places,drawing&key=AIzaSyAi9dkxQdt3tcFTUNW61LsQSfqDbwLNmU8&callback=initMap" type="text/javascript"></script>
         <script type="text/javascript" src="js/jquery/jquery.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/jquery/jquery-migrate.min.js"></script>
         <script type="text/javascript" src="js/jquery/common-scripts.js"></script>
         <script type="text/javascript" src="js/google-map-richmarker.min.js"></script>
